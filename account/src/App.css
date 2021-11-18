@@ -1,0 +1,28 @@
+body{
+  background-color: bisque;
+  font-style: italic;
+  color:#3F3351;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button{
+  position: relative;
+  border-radius: 10px;
+  left:10px;
+}
+
+.input_Box{
+  border-radius: 10px;
+  border:2px thin grey;
+}
+
+#add_Money_Btn:active{
+  background-color: lightgreen;
+}
+
+#buy_Now_Btn:active{
+  background-color: lightcoral;
+}
